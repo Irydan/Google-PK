@@ -1,0 +1,149 @@
+body{
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	margin: 0;
+	padding: 0;
+	min-width: 1080px;
+}
+
+/**Navigace Googlu**/
+.googlenav{
+	padding:17px 29px 0 0;
+	margin:0 0 0 0;
+}
+
+.googlenav li{
+	list-style: none;
+	display: inline-block;
+}
+
+.googlenav a{
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: 300;
+	color: rgb(0,0,0);
+}
+
+.googlenav img{
+	position: relative;
+	bottom: 2px;
+}
+
+.googlenav a:hover{
+	color: rgb(90,90,90);
+}
+
+.googlenav img:hover:not(#avatar){
+filter: brightness(0.4);
+}
+
+.googlnav img,li{
+	padding: 0 0 0 15px;
+}
+
+/* /Navigave Googlu */
+/* Logo */
+.logo{
+	margin-top: 150px;
+	margin-bottom: 0;
+	width: 272px;
+}
+/* /Logo */
+/* Search box */
+.googleform{
+	overflow: visible;
+	width: 565px;
+	min-width: 565px;
+	padding: 9px;
+	padding-right: 85px;
+	padding-left: 15px;
+
+	outline: none;
+	border: 1px solid rgb(234,234,234);
+	box-shadow: 0px 2px 5px rgb(195,195,195);
+
+}
+
+.googleform:focus:hover{
+	outline: none;
+}
+
+.googleform:focus{
+	transform: box-shadow;
+	transition: all 1s ease;
+	box-shadow: 0px 2px 5px rgb(160,160,160);
+}
+
+.googleform:hover{
+	transform: box-shadow;
+	transition: all 1s ease;
+	box-shadow: 0px 2px 5px rgb(160,160,160);
+}
+
+.fake{
+	position: relative;
+	right: -760px;
+	bottom: -37px;
+}
+/* /Search box */
+/* buttons */
+
+.googlebutton{
+	margin: 0;
+	padding: 8px 12px;
+
+	background: rgb(234,234,234);
+	border: 1px solid rgb(255,255,255);
+	border-radius: 1px;
+
+
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: 600;
+	color: rgb(120,120,120);
+	transition: 0s;
+}
+
+.googlebutton:hover{
+
+	transition: 0s;
+	background: rgb(234,234,234);
+	color: rgb(0,0,0);
+	border: 1px solid rgb(195,195,195);
+}
+
+/* /buttons */
+/* footer */
+.btm{
+	position: absolute;
+	bottom: 0;
+
+	background-color: rgb(240,240,240);
+}
+
+.btm .row{
+	border-top: solid 1px rgb(225,225,225);
+}
+
+.btm p{
+	margin: 0;
+	padding: 8px 0 8px 27px;
+}
+
+.btm ul{
+	margin: 0;
+	padding: 8px 0 8px 0px;
+}
+.btm li{
+	margin: 0;
+	padding: 0 11px;
+	list-style: none;
+	display: inline;
+}
+
+.btm a, p{
+	font-family: Arial,"Helvetica Neue",Helvetica,sans-serif;
+	font-size: 13px;
+	font-weight: 0;
+	color: rgb(120,120,120);
+}
